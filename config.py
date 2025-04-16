@@ -9,24 +9,24 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","21114830"))
+API_HASH = getenv("API_HASH","7cf6838a8f5acd6ea41f29fe3143ad60")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","7988820540:AAE7HeuDXKFgP_twdH_0STCVL_HRwBC2YyM")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","VENOM_PRATAP")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","VenomuMusicbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("BOT_NAME","Venom Music")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME")
+ASSUSERNAME = getenv("ASSUSERNAME","Venom Assistant")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://mahtoanjali:MomDadBhai098@cluster0.cd8ly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -35,8 +35,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002418950508))
-SUB_LOG = int(getenv("SUB_LOG", -1002418950508))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001969159081))
+SUB_LOG = int(getenv("SUB_LOG", -1001969159081))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", 1073815732))
