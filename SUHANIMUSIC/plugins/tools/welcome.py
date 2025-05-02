@@ -113,8 +113,8 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     pfp = circle(pfp, brightness_factor=brightness_factor) 
     pfp = pfp.resize((590, 590))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('SUHANIMUSIC/assets/thumb/font.ttf', size=110)
-    welcome_font = ImageFont.truetype('SUHANIMUSIC/assets/thumb/font.ttf', size=61)
+    font = ImageFont.truetype('SUHANIMUSIC/assets/font.ttf', size=110)
+    welcome_font = ImageFont.truetype('SUHANIMUSIC/assets/font.ttf', size=61)
     
     draw.text((410, 920), f'{id}', fill=(34, 34, 34), font=font)
     draw.text((688, 1080), f'{user}', fill=(23, 156, 241), font=font)
