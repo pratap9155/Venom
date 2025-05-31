@@ -9,14 +9,14 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID","21114830"))
-API_HASH = getenv("API_HASH","7cf6838a8f5acd6ea41f29fe3143ad60")
+API_ID = int(getenv("API_ID",""))
+API_HASH = getenv("API_HASH","")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN","7988820540:AAE7HeuDXKFgP_twdH_0STCVL_HRwBC2YyM")
+BOT_TOKEN = getenv("BOT_TOKEN","")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","VENOM_PRATAP")
+OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","VenomuMusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME","")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME","Venom Music")
 # ---------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME","Venom Assistant")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://mahtoanjali:MomDadBhai098@cluster0.cd8ly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI","")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
