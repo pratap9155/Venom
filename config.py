@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME","Venom Assistant")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Venompratap:@Venom9155@cluster0.0zc1aaw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://venompratap:venom9155@cluster0.dcz5eaa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
