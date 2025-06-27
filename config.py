@@ -201,7 +201,7 @@ if SUPPORT_CHAT:
 
 IMG_URL = "https://envs.sh/YrW.jpg"
 YT_API_URL = getenv("YT_API_URL", 'https://api.thequickearn.xyz')
-YT_API_KEY = getenv("YT_API_KEY")
+YT_API_KEY = getenv("YT_API_KEY", "NxGBNexGenBots0688b3")
 
 # ----------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------
