@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID",""))
-API_HASH = getenv("API_HASH","")
+API_ID = int(getenv("API_ID","21114830"))
+API_HASH = getenv("API_HASH","7cf6838a8f5acd6ea41f29fe3143ad60")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN","")
+BOT_TOKEN = getenv("BOT_TOKEN","7cf6838a8f5acd6ea41f29fe3143ad60")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","")
 # --------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME","Venom Assistant")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI","")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Venompratap:@Venom9155@cluster0.0zc1aaw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -66,7 +66,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venompratap/SUHANIMUSIC",
+    "https://github.com/pratap9155/Venom",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -127,7 +127,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQFCL84Av1bX_YsjFho397eR50EwmoexL3t0BKWZPMtehuPTjJXEde_EvlZ26aZfTLKeB4x4Bc3KsB-z8z-bRxZfKsI9PTwKXjVxFynofsrH1N-iRilfh70SyrHJ6BmOPf7FXQxtN4VSeM70Qsa6SY-5uIn4HFnbihqhLXv2kuk2UlIPl0M-pK_2CGV28XG8G8eDHXZ4ND_8APYx9QwD4eSaXINUmx5WQ9EzAL2MFQ7zin-8tSn3W_DTyrMaewF2mHeTafMi7opehWo6gvy5Qzhg2hTczrDmEJI-E-mFR3tUsaz2PP_jlawRLalicPeuUgziRw_K7H_0UXw7Sl4nyDv8vig2wwAAAAHgHk9TAA")
+STRING1 = getenv("STRING_SESSION", "BQFCL84AJzf5B4zZYKo_6-bzIYJl0Sr6Ig9X1X-iPEBipJEIH2WUnL9FZam96aowPr5I8GAt-qCsRApApfFeHWj3451xYh0KCCq5jux06WO-yQS94UQTruWyqSHfDQky4rwak7N1bLBnozfvMjyLAOsY1Z7KETW5jzazeJdhS6GtWnaTwJtwtXiyavtyl2JzUAidk_tXQ46dVBa1NxlTmkaZ9UnNgsxYajp6-7SNrYEGt4vxosIMNv-LHMh3tQjFutJB_pfnZ6bdpbwQj-VuyIyzQhFEt-7Ncj_KkhfqA1TBCFSNdZDSpq0WTuXj9zKlc6A2lz5QG60k_Rm-5eh4dWWzLl3XiAAAAAHgHk9TAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
