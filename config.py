@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH","7cf6838a8f5acd6ea41f29fe3143ad60")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN","7cf6838a8f5acd6ea41f29fe3143ad60")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","")
+OWNER_USERNAME = getenv("OWNER_USERNAME","venom_pratap")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","")
+BOT_USERNAME = getenv("BOT_USERNAME","venomumusicbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME","Venom Music")
 # ---------------------------------------------------------
@@ -68,7 +68,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/pratap9155/Venom",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # ----------------------------------------------------------------
